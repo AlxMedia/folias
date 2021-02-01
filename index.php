@@ -5,7 +5,7 @@
 <?php endif; ?>
 
 <div class="content">
-	<div class="content-inner group">
+	<div class="magic-grid">
 		<?php get_template_part('inc/front-widgets-top'); ?>
 		
 		<?php if ( have_posts() ) : ?>
@@ -13,6 +13,8 @@
 			<?php while ( have_posts() ): the_post(); ?>
 				<?php get_template_part('content'); ?>
 			<?php endwhile; ?>
+			
+			<div class="clear"></div>
 			
 			<?php get_template_part('inc/front-widgets-bottom'); ?>
 			<?php get_template_part('inc/pagination'); ?>

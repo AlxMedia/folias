@@ -100,6 +100,17 @@ jQuery(document).ready(function($) {
 		else {  
 			$(".sidebar.s1").appendTo("#move-sidebar-header");
 		}
-	}); 
+	});
+	
+	let magicGrid = new MagicGrid({
+        container: '.magic-grid',
+        animate: true,
+        gutter: 30,
+        static: true,
+        useMin: true
+      });
+
+      magicGrid.listen();
+	
 	
 });

@@ -196,6 +196,7 @@ add_action( 'widgets_init', 'folias_sidebars' );
 if ( ! function_exists( 'folias_scripts' ) ) {
 	
 	function folias_scripts() {
+		wp_enqueue_script( 'folias-magic-grid', get_template_directory_uri() . '/js/magic-grid.min.js', array( 'jquery' ),'', false );
 		wp_enqueue_script( 'folias-slick', get_template_directory_uri() . '/js/slick.min.js', array( 'jquery' ),'', false );
 		wp_enqueue_script( 'folias-fitvids', get_template_directory_uri() . '/js/jquery.fitvids.js', array( 'jquery' ),'', true );
 		wp_enqueue_script( 'folias-scripts', get_template_directory_uri() . '/js/scripts.js', array( 'jquery' ),'', true );
