@@ -105,7 +105,7 @@ jQuery(document).ready(function($) {
 	let magicGrid = new MagicGrid({
         container: '.magic-grid',
         animate: true,
-        gutter: 30,
+        gutter: 20,
         static: true,
         useMin: true
       });
