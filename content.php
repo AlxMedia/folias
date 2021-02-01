@@ -23,6 +23,8 @@
 	<?php endif; ?>
 	<div class="type-portfolio-content">
 		<h3 class="type-portfolio-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h3>
-		<div class="type-portfolio-category"><?php the_category(' / '); ?></div>
+		<?php if ( has_category() ) : ?>
+			<div class="type-portfolio-category"><?php the_category(' / '); ?></div>
+		<?php endif; ?>
 	</div>
 </div>
