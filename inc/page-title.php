@@ -4,7 +4,8 @@
 		<?php if ( is_home() ) : ?>
 			<h2><?php echo folias_blog_title(); ?></h2>
 		<?php elseif ( is_single() ): ?>
-
+			<h4><?php the_category(' / '); ?> <span><?php the_time( get_option('date_format') ); ?></span></h4>
+			
 		<?php elseif ( is_page() ): ?>
 			<h2><?php the_title(); ?></h2>
 

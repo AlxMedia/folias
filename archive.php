@@ -3,7 +3,7 @@
 <?php get_template_part('inc/page-title'); ?>
 
 <div class="content">
-	<div class="content-inner group">
+	<div class="magic-grid">
 		<?php if ( have_posts() ) : ?>
 				
 			<?php while ( have_posts() ): the_post(); ?>

@@ -1,25 +1,26 @@
 <?php get_header(); ?>
 
+<?php get_template_part('inc/page-title'); ?>
+
 <div class="content">
 	<div class="content-inner group">
 		<?php while ( have_posts() ): the_post(); ?>
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>	
 				<div class="post-wrapper">
 					
+					<div class="image-container">
+						<?php if ( has_post_thumbnail() ) {	the_post_thumbnail('folias-large-h'); } ?>
+					</div>
+					<!--<div class="entry-media">
+						<?php // if( get_post_format() ) { get_template_part('inc/post-formats'); } ?>
+					</div>-->
+					
 					<?php do_action( 'alx_ext_sharrre' ); ?>
 					
 					<header class="entry-header group">
 						<h1 class="entry-title"><?php the_title(); ?></h1>
-						<div class="entry-meta">
-							<span class="entry-date"><?php the_time( get_option('date_format') ); ?></span>
-							<span class="entry-category"><?php the_category(' / '); ?></span>
-						</div>
 					</header>
 
-					<div class="entry-media">
-						<?php if( get_post_format() ) { get_template_part('inc/post-formats'); } ?>
-					</div>
-					
 					<div class="entry-content">
 						<div class="entry themeform">	
 							<?php the_content(); ?>
