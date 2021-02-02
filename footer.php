@@ -26,7 +26,7 @@
 				{ ?>		
 				<div id="footer-widgets">
 						
-					<div class="pad dark group">
+					<div class="pad group">
 						<?php $i = 0; while ( $i < $total ) { $i++; ?>
 							<?php if ( is_active_sidebar( 'footer-' . $i ) ) { ?>
 						

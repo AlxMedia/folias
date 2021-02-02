@@ -4,7 +4,7 @@
 	if ( $layout != 'col-1c'):
 ?>
 
-	<div class="sidebar s1 dark">
+	<div class="sidebar s1">
 		
 		<div class="sidebar-content">
 
