@@ -128,7 +128,7 @@
 
 	.post-nav li { width: 100%; -webkit-box-shadow: none!important; box-shadow: none!important; }
 	.post-nav li a { min-height: 0; }
-	.post-nav li.previous { border-top: 1px solid #eee; }
+	.post-nav li.previous { border-top: 1px solid #333; }
 	.sidebar .post-nav li.previous { border-top: 0; }
 	
 	.related-posts li { width: 50%; }
