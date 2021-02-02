@@ -15,7 +15,7 @@
 						<?php // if( get_post_format() ) { get_template_part('inc/post-formats'); } ?>
 					</div>-->
 					
-					<?php do_action( 'alx_ext_sharrre' ); ?>
+					<?php // do_action( 'alx_ext_sharrre' ); ?>
 					
 					<header class="entry-header group">
 						<h1 class="entry-title"><?php the_title(); ?></h1>
@@ -45,9 +45,7 @@
 						<?php endif; ?>
 						
 						<?php do_action( 'alx_ext_sharrre_footer' ); ?>
-						
-						<?php if ( get_theme_mod( 'related-posts', 'categories' ) != 'disable' ) { get_template_part('inc/related-posts'); } ?>
-						
+
 						<?php if ( get_theme_mod( 'post-nav', 'sidebar' ) == 'content' ) { get_template_part('inc/post-nav'); } ?>
 
 						<?php if ( comments_open() || get_comments_number() ) :	comments_template( '/comments.php', true ); endif; ?>
@@ -55,7 +53,10 @@
 					</div>
 
 				</div>
+				
 			</article><!--/.post-->
+			
+			<?php if ( get_theme_mod( 'related-posts', 'categories' ) != 'disable' ) { get_template_part('inc/related-posts'); } ?>
 		<?php endwhile; ?>
 	</div>
 </div><!--/.content-->

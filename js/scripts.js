@@ -103,44 +103,6 @@ jQuery(document).ready(function($) {
 	  centerPadding: '0',
 	  slidesToShow: 1,
 	  appendArrows: '.slick-posts-nav',
-	  responsive: [
-		 {
-		  breakpoint: 1280,
-		  settings: {
-			arrows: true,
-			centerMode: true,
-			centerPadding: '0',
-			slidesToShow: 4
-		  }
-		},
-		{
-		  breakpoint: 1024,
-		  settings: {
-			arrows: true,
-			centerMode: true,
-			centerPadding: '0',
-			slidesToShow: 3
-		  }
-		},
-		{
-		  breakpoint: 768,
-		  settings: {
-			arrows: true,
-			centerMode: true,
-			centerPadding: '0',
-			slidesToShow: 2
-		  }
-		},
-		{
-		  breakpoint: 480,
-		  settings: {
-			arrows: true,
-			centerMode: true,
-			centerPadding: '0',
-			slidesToShow: 1
-		  }
-		}
-	  ]
 	});
 	$('.slick-posts-wrap-outer').show();	
 
@@ -166,6 +128,8 @@ jQuery(document).ready(function($) {
 		}
 	});
 	
+/*  Magic grid
+/* ------------------------------------ */	
 	let magicGrid = new MagicGrid({
         container: '.magic-grid',
         animate: true,
@@ -175,6 +139,5 @@ jQuery(document).ready(function($) {
       });
 
       magicGrid.listen();
-	
 	
 });
