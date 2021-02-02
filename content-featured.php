@@ -6,7 +6,7 @@
 			<div class="featured-item-avatar"><?php echo get_avatar(get_the_author_meta('user_email'),'128'); ?></div>
 			<h2 class="featured-item-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 			<div class="featured-item-category"><?php the_category(' / '); ?></div>
-			<?php if (get_theme_mod('excerpt-length','26') != '0'): ?>
+			<?php if (get_theme_mod('excerpt-length','16') != '0'): ?>
 				<div class="featured-item-excerpt">
 					<?php the_excerpt(); ?>
 				</div>
