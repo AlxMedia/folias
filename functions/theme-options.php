@@ -140,6 +140,40 @@ Kirki::add_field( 'folias_theme', array(
 		'step'	=> '1',
 	),
 ) );
+// Blog: Featured Posts Include
+Kirki::add_field( 'folias_theme', array(
+	'type'			=> 'switch',
+	'settings'		=> 'featured-posts-include',
+	'label'			=> esc_html__( 'Featured Posts', 'folias' ),
+	'description'	=> esc_html__( 'Exclude featured posts from the content below', 'folias' ),
+	'section'		=> 'blog',
+	'default'		=> 'off',
+) );
+// Blog: Featured Category
+Kirki::add_field( 'folias_theme', array(
+	'type'			=> 'select',
+	'settings'		=> 'featured-category',
+	'label'			=> esc_html__( 'Featured Category', 'folias' ),
+	'description'	=> esc_html__( 'By not selecting a category, it will show your latest post(s) from all categories', 'folias' ),
+	'section'		=> 'blog',
+	'default'		=> '',
+	'choices'		=> Kirki_Helper::get_terms( 'category' ),
+	'placeholder'	=> esc_html__( 'Select a category', 'folias' ),
+) );
+// Blog: Featured Post Count
+Kirki::add_field( 'folias_theme', array(
+	'type'			=> 'slider',
+	'settings'		=> 'featured-posts-count',
+	'label'			=> esc_html__( 'Featured Post Count', 'folias' ),
+	'description'	=> esc_html__( 'Max number of featured posts to display. Set it to 0 to disable', 'folias' ),
+	'section'		=> 'blog',
+	'default'		=> '1',
+	'choices'     => array(
+		'min'	=> '0',
+		'max'	=> '14',
+		'step'	=> '1',
+	),
+) );
 // Blog: Frontpage Widgets Top
 Kirki::add_field( 'folias_theme', array(
 	'type'			=> 'switch',

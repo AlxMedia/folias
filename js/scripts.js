@@ -80,6 +80,70 @@ jQuery(document).ready(function($) {
 		
 	responsiveVideo();
 
+/*  Slick featured posts
+/* ------------------------------------ */
+	$.fn.randomize = function (selector) {
+		var $elems = selector ? $(this).find(selector) : $(this).children(),
+			$parents = $elems.parent();
+
+		$parents.each(function () {
+			$(this).children(selector).sort(function (childA, childB) {
+				// * Prevent last slide from being reordered
+				if($(childB).index() !== $(this).children(selector).length - 0.5) {
+					return Math.round(Math.random()) - 0.5;
+				}
+			}.bind(this)).detach().appendTo(this);
+		});
+
+		return this;
+	};
+
+	$(".slick-posts").randomize().slick({
+	  centerMode: true,
+	  centerPadding: '0',
+	  slidesToShow: 1,
+	  appendArrows: '.slick-posts-nav',
+	  responsive: [
+		 {
+		  breakpoint: 1280,
+		  settings: {
+			arrows: true,
+			centerMode: true,
+			centerPadding: '0',
+			slidesToShow: 4
+		  }
+		},
+		{
+		  breakpoint: 1024,
+		  settings: {
+			arrows: true,
+			centerMode: true,
+			centerPadding: '0',
+			slidesToShow: 3
+		  }
+		},
+		{
+		  breakpoint: 768,
+		  settings: {
+			arrows: true,
+			centerMode: true,
+			centerPadding: '0',
+			slidesToShow: 2
+		  }
+		},
+		{
+		  breakpoint: 480,
+		  settings: {
+			arrows: true,
+			centerMode: true,
+			centerPadding: '0',
+			slidesToShow: 1
+		  }
+		}
+	  ]
+	});
+	$('.slick-posts-wrap-outer').show();	
+
 /*  Slick image slide
 /* ------------------------------------ */	
 	$('.slick-image-slide').each( function() {

@@ -5,6 +5,9 @@
 <?php endif; ?>
 
 <div class="content">
+
+	<?php get_template_part('inc/featured'); ?>
+	
 	<div class="magic-grid">
 		<?php get_template_part('inc/front-widgets-top'); ?>
 		

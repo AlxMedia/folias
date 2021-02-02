@@ -726,7 +726,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .type-portfolio-title a { color: #fff; }
 .type-portfolio-category { font-size: 13px; color: #ccc; text-transform: uppercase; padding: 10px 20px; border-top: 1px solid #444; }
 .type-portfolio-category a { color: #999; }
-.type-portfolio-category a:hover { color: #000; }
+.type-portfolio-category a:hover { color: #fff; }
 
 /*  header : search
 /* ------------------------------------ */
@@ -914,6 +914,55 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .front-widget-inner { margin-right: 30px; }
 .front-widgets .widget { padding-top: 20px; padding-bottom: 20px; }
 .front-widgets .widget > h3 {  }
+
+
+.featured-item { height: 600px; background-size: cover; }
+.featured-item-left { background: green; width: 50%; float: left; }
+.featured-item-right { background: blue; width: 50%; float: left; }
+
+.slick-posts-wrap-outer { display: none; /* before loading */ border-bottom: 1px solid #333; margin-bottom: 40px; }
+.slick-posts-wrap { padding: 20px 20px 0; box-sizing: border-box; }
+.slick-posts { position: relative; z-index: 2; }
+
+/*
+.slick-posts:before { background: linear-gradient(to right, #f1f1f1 0%,rgba(0,0,0,0) 100%); content:""; display: block; top: 0; left: 0; bottom: 0; width: 40px; position: absolute; z-index: 3; pointer-events: none; }
+.slick-posts:after { background: linear-gradient(to right, rgba(0,0,0,0) 0%,#f1f1f1 100%); content:""; display: block; top: 0; right: 0; bottom: 0; width: 40px; position: absolute; z-index: 3; pointer-events: none; }
+*/
+
+.slick-posts-nav { position: relative; text-align: center; margin-bottom: 0; z-index: 3; }
+.slick-posts-nav .slick-prev,
+.slick-posts-nav .slick-next { background: #333; box-shadow: 0 10px 10px rgba(0,0,0,0.03), 0 1px 0 rgba(0,0,0,0.05); transition: all 0.3s ease; position: relative; display: inline-block; margin: 10px 10px 0; height: 34px; width: 34px; border-radius: 4px; }
+.slick-posts-nav .slick-prev:hover,
+.slick-posts-nav .slick-next:hover,
+.slick-posts-nav .slick-prev:focus,
+.slick-posts-nav .slick-next:focus { background: #333; }
+.slick-posts-nav .slick-prev { left: 0; }
+.slick-posts-nav .slick-next { right: 0; }
+.slick-posts-nav .slick-prev:before { color: #fff; font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f053"; }
+.slick-posts-nav .slick-next:before { color: #fff; font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f054"; }
+
+.slick-image-slide-wrapper { display: none; /* before loading */ position: relative; }
+.slick-image-slide { background: #333; }
+.slick-image-slide .slick-slide > div > div { display: block!important; }
+.slick-image-slide .slick-slide { position: relative; }
+.slick-image-slide .slick-slide img { margin: 0 auto; }
+.slick-image-slide-nav { position: absolute; text-align: center; margin-top: -10px; position: absolute; left: 0; right: 0; top: 50%; z-index: 99; pointer-events: none; }
+.slick-image-slide-nav .slick-prev { float: left; }
+.slick-image-slide-nav .slick-next { float: right; }
+.slick-image-slide-nav .slick-prev,
+.slick-image-slide-nav .slick-next { background: #eee; transition: all 0.3s ease; position: relative; display: inline-block; margin: 10px; height: 34px; width: 34px; border-radius: 4px; pointer-events: auto; }
+.slick-image-slide-nav .slick-prev:hover,
+.slick-image-slide-nav .slick-next:hover,
+.slick-image-slide-nav .slick-prev:focus,
+.slick-image-slide-nav .slick-next:focus { background: #e5e5e5; }
+.slick-image-slide-nav .slick-prev { left: 0; }
+.slick-image-slide-nav .slick-next { right: 0; }
+.slick-image-slide-nav .slick-prev:before { color: #000; font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f053"; }
+.slick-image-slide-nav .slick-next:before { color: #000; font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f054"; }
+.slick-image-slide-dots { background: red; }
+.slick-image-slide-dots .slick-dots li { height: 10px; width: 10px; margin: 0 3px; }
+.slick-image-slide-dots .slick-dots li button { background: rgba(0,0,0,0.2); height: 10px; width: 10px; border-radius: 100%; text-indent: -9999px; overflow: hidden; }
+.slick-image-slide-dots .slick-dots .slick-active button { background: rgba(0,0,0,0.7); }
 
 
 /* ------------------------------------------------------------------------- *
