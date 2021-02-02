@@ -96,16 +96,26 @@
 	.commentlist li ul li { padding-left: 10px; }
 	
 	/* page */
-	.page-title { font-size: 18px; margin-bottom: 0; }
 	.notebox { font-size: 15px; }
+	
+	/* blog home */
+	.content-inner { padding: 20px; }
+	.type-portfolio { width: 100%; }
+	
+	.slick-posts-wrap { padding: 20px 20px 10px; }
+	.featured-item { height: auto; float: left; }
+	.featured-item-left,
+	.featured-item-right { width: 100%; }
+	.featured-item-bottom { height: 260px; padding: 30px 30px 50px; position: relative; box-sizing: border-box; }
+	.featured-item-avatar { width: 40px; top: -26px; z-index: 3; left: 30px; }
+	.featured-item-title { font-size: 22px; letter-spacing: 0; line-height: 1.4em; margin-bottom: 10px; }
+	.featured-item-category { font-size: 13px; }
+	.featured-item-excerpt { margin-top: 10px; font-size: 14px; }
+	.featured-item-right { height: 300px; }
 	
 	/* blog */
 	.content > article { padding-left: 0; padding-right: 0; }
-	.entry .more-link { font-size: 15px; } 
-	
-	.featured-post { bottom: 0; }
-	.featured-post-title { font-size: 14px; }
-	.slick-posts { margin-top: 0; }
+
 	.entry-header { margin-bottom: 20px; margin-top: 20px; }
 	.entry-header .entry-title { font-size: 28px; margin-bottom: 10px; }
 	.entry-header .entry-meta { font-size: 15px; }
@@ -161,7 +171,7 @@
 	.page-title h1, 
 	.page-title h2,
 	.page-title h3, 
-	.page-title h4 { font-size: 18px; }
+	.page-title h4 { font-size: 15px; }
 	.page-title .notebox { font-size: 15px; }
 	
 	/* header */

@@ -910,9 +910,9 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .front-widgets .widget > h3 {  }
 
 
-.featured-item { height: 600px; margin-bottom: 20px; }
+.featured-item { height: 600px; margin-bottom: 20px; overflow: hidden; }
 .featured-item-left { background: #333; height: 100%; width: 50%; float: left; box-sizing: border-box; position: relative; }
-.featured-item-right { background: #161616; background-size: cover; background-position: center center; height: 100%; width: 50%; float: left; position: relative; }
+.featured-item-right { background: #161616; background-size: cover; background-position: center center; overflow: hidden; height: 100%; width: 50%; float: right; position: relative; }
 .featured-item-right:hover .type-portfolio-date { top: 0; }
 .featured-item-right:before { opacity: 0; background: url(img/image-gradient-reverse.png) repeat-x; background-size: 100% 100%; content: ""; position: absolute; display: block; height: 100%; width: 100%; bottom: 0; display: block; transition: all .4s ease; pointer-events: none; }
 .featured-item-right:hover:before { opacity: 0.5; }
