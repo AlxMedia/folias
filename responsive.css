@@ -1,24 +1,29 @@
 #wrapper { min-width: 320px; }
 
+@media only screen and (min-width: 1401px) and (max-width: 1680px) {
+	.featured-item-title { font-size: 34px; letter-spacing: 0; line-height: 1.4em; margin-bottom: 10px; }
+}
+@media only screen and (max-width: 1400px) {
+	.featured-item { height: 400px; }
+	.featured-item-bottom { padding: 40px 30px 30px; }
+	.featured-item-avatar { width: 40px; top: -26px; z-index: 3; left: 30px; }
+	.featured-item-title { font-size: 28px; letter-spacing: 0; line-height: 1.4em; margin-bottom: 10px; }
+	.featured-item-category { font-size: 13px; }
+	.featured-item-excerpt { margin-top: 10px; font-size: 14px; }
+}
+@media only screen and (max-width: 1200px) {
+	.featured-item-title { font-size: 22px; }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1080px) {
+	.featured-item { height: 340px; }
+	.type-portfolio { width: 270px; }
+}
 @media only screen and (min-width: 960px) and (max-width: 1200px) {
 	#header { min-width: 260px; max-width: 260px; }
+	.site-title,
 	.site-description,
 	#profile-inner,
 	.sidebar .widget { padding-left: 20px; padding-right: 20px; }
-	.article-type-list { display: block; }
-	.type-list-center { width: 80%; border-right: 0; }
-	.type-list-center.no-thumb { width: 100%; }
-	.type-list-right { padding-bottom: 30px; padding-top: 20px; width: 100%; border-top: 1px solid #eee; }
-	.type-list-right .more-link { right: 80px; left: auto; }
-	.type-list-date { margin-bottom: 0; }
-}
-@media only screen and (max-width: 760px) {
-	.article-type-list { display: block; }
-	.type-list-center { width: 80%; border-right: 0; }
-	.type-list-center.no-thumb { width: 100%; }
-	.type-list-right { padding-bottom: 30px; padding-top: 20px; width: 100%; border-top: 1px solid #eee; }
-	.type-list-right .more-link { right: 80px; left: auto; }
-	.type-list-date { margin-bottom: 0; }
 }
 @media only screen and (max-width: 960px) {
 	#wrapper-inner { display: block; }
@@ -35,7 +40,10 @@
 	.s2 .social-links .social-tooltip:hover:before { display: none; }
 	.toggle-search { display: none; }
 	.main { float: left; }
-	.s1 { margin: 0; }
+	.s1 { margin: 0; }	
+}
+@media only screen and (max-width: 760px) {
+
 }
 @media only screen and (max-width: 719px) {
 	.site-title a img { margin: 0 auto; }
@@ -56,7 +64,8 @@
 	
 	.container { padding: 0; }
 	.grid { width: 100%; margin: 0 0 10px; }
-	.sidebar .widget { padding-left: 20px; padding-right: 20px; }
+	.sidebar .widget,
+	.page-title { padding-left: 20px; padding-right: 20px; }
 	.pagination { margin-left: 20px; margin-right: 20px; }
 	
 	/* hide */
@@ -107,6 +116,7 @@
 	.featured-item-left,
 	.featured-item-right { width: 100%; }
 	.featured-item-bottom { height: 260px; padding: 30px 30px 50px; position: relative; box-sizing: border-box; }
+	.featured-item-bottom:before { display: none; }
 	.featured-item-avatar { width: 40px; top: -26px; z-index: 3; left: 30px; }
 	.featured-item-title { font-size: 22px; letter-spacing: 0; line-height: 1.4em; margin-bottom: 10px; }
 	.featured-item-category { font-size: 13px; }
