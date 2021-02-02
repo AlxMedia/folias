@@ -8,22 +8,27 @@
 
 	<?php get_template_part('inc/featured'); ?>
 	
-	<div class="magic-grid">
-		<?php get_template_part('inc/front-widgets-top'); ?>
-		
-		<?php if ( have_posts() ) : ?>
+	<div class="content-inner">
+	
+		<div class="magic-grid">
+			<?php get_template_part('inc/front-widgets-top'); ?>
+			
+			<?php if ( have_posts() ) : ?>
 
-			<?php while ( have_posts() ): the_post(); ?>
-				<?php get_template_part('content'); ?>
-			<?php endwhile; ?>
-			
-			<div class="clear"></div>
-			
-			<?php get_template_part('inc/front-widgets-bottom'); ?>
-			<?php get_template_part('inc/pagination'); ?>
-			
-		<?php endif; ?>
+				<?php while ( have_posts() ): the_post(); ?>
+					<?php get_template_part('content'); ?>
+				<?php endwhile; ?>
+				
+				<div class="clear"></div>
+				
+				<?php get_template_part('inc/front-widgets-bottom'); ?>
+				<?php get_template_part('inc/pagination'); ?>
+				
+			<?php endif; ?>
+		</div>
+		
 	</div>
+	
 </div><!--/.content-->
 
 <div id="move-sidebar-content"></div>
