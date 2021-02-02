@@ -1196,16 +1196,16 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
  *  Widgets
 /* ------------------------------------------------------------------------- */
 .widget { color: #777; font-size: 14px; }
-.widget a { color: #777; font-weight: 600; }
+.widget a { color: #777; font-weight: 400; }
 .widget a:hover { color: #333; }
-.widget > h3 { font-size: 16px; font-weight: 600; margin: 0 -50px 10px; padding: 0 50px; }
+.widget > h3 { font-size: 16px; font-weight: 400; margin: 0 -50px 10px; padding: 0 50px; }
 .widget > h3 a,
 .widget > h3 a:hover { color: #333; }
 .widget > h3 a img { display: none; float: left; margin: 3px 7px 0 0; }
 .widget select { border: 1px solid #ddd; color: #777; font-size: 15px; padding: 7px; width: 100%; max-width: 100%; }
 .widget label.screen-reader-text { display: none; }
 
-.sidebar .widget { padding: 30px 40px; border-top: 1px solid #222; }
+.sidebar .widget { padding: 30px 40px; border-top: 1px solid #333; }
 
 /*  widgets : icons
 /* ------------------------------------ */
