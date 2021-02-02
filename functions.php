@@ -72,7 +72,7 @@ if ( ! function_exists( 'folias_setup' ) ) {
 		// Thumbnail sizes
 		add_image_size( 'folias-small', 200, 200, true );
 		add_image_size( 'folias-medium', 520, 293, true );
-		add_image_size( 'folias-large', 920, 518, true );
+		add_image_size( 'folias-square', 800, 800, true );
 		add_image_size( 'folias-large-h', 920 );
 		
 		// Thumbnail sizes custom widgets

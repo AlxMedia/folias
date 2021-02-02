@@ -935,7 +935,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .featured-item-excerpt { color: #999; font-size: 18px; line-height: 1.6em; margin-top: 30px; }
 .featured-item-bottom:before { content:""; position: absolute; right: -28px; bottom: 60px; z-index: 2; width: 0; height: 0; border-top: 30px solid transparent; border-bottom: 30px solid transparent; border-left: 30px solid #333; }
 
-.slick-posts-wrap-outer { display: none; /* before loading */ border-bottom: 1px solid #333; margin-bottom: 40px; }
+.slick-posts-wrap-outer { display: none; /* before loading */ border-bottom: 1px solid #333; }
 .slick-posts-wrap { padding: 40px 40px 0; box-sizing: border-box; }
 .slick-posts { position: relative; z-index: 2; }
 

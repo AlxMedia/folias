@@ -13,7 +13,7 @@
 			<?php endif; ?>
 		</div>
 	</div>
-	<div class="featured-item-right" href="<?php the_permalink(); ?>" style="background-image:url('<?php the_post_thumbnail_url('folias-mediumx'); ?>');">
+	<div class="featured-item-right" href="<?php the_permalink(); ?>" style="background-image:url('<?php the_post_thumbnail_url('folias-square'); ?>');">
 		<a class="featured-item-link" href="<?php the_permalink(); ?>" rel="bookmark"></a>
 		<div class="type-portfolio-date">
 			<div class="type-portfolio-date-month"><?php the_time('M') ?></div>
