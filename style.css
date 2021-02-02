@@ -317,7 +317,7 @@ h1, h2, h3, h4, h5, h6 { color: #fff; font-weight: 300; -ms-word-wrap: break-wor
 .entry h3,
 .entry h4,
 .entry h5,
-.entry h6 { font-weight: 600; line-height: 1.3em; }
+.entry h6 { font-weight: 300; line-height: 1.3em; }
 .entry h1 span, 
 .entry h2 span, 
 .entry h3 span, 
@@ -667,7 +667,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .main { width: 100%; min-height: 100vh; }
 
 .s2 { background: #333; position: relative; min-width: 90px; max-width: 90px; z-index: 99; }
-.s2 .social-links { float: left; padding: 20px 0; width: 100%; }
+.s2 .social-links { background: #333; float: left; padding: 20px 0; width: 100%; }
 .s2 .social-links li { margin: 0 auto; padding: 4px 0; width: 100%; position: relative; }
 .s2 .social-links li:before { content:""; height: 1px; background: rgba(255,255,255,0.06); position: absolute; left: 30px; right: 30px; top: 0; }
 .s2 .social-links li:first-child:before { display: none; }
