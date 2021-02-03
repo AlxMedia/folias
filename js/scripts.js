@@ -115,6 +115,7 @@ jQuery(document).ready(function($) {
             appendArrows: $(this).parents('.slick-image-slide-wrapper').find('.slick-image-slide-nav'),
 			appendDots: $(this).parents('.slick-image-slide-wrapper').find('.slick-image-slide-dots')
         } );
+		$('.slick-image-slide-wrapper').show();
     } );
 	
 /*  Move sidebar
