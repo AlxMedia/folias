@@ -201,6 +201,15 @@ Kirki::add_field( 'folias_theme', array(
 	'section'		=> 'blog',
 	'default'		=> 'off',
 ) );
+// Blog: Hover Date
+Kirki::add_field( 'folias_theme', array(
+	'type'			=> 'switch',
+	'settings'		=> 'hover-date',
+	'label'			=> esc_html__( 'Hover Date', 'folias' ),
+	'description'	=> esc_html__( 'Show date on hover on each item', 'folias' ),
+	'section'		=> 'blog',
+	'default'		=> 'on',
+) );
 // Blog: Comment Count
 Kirki::add_field( 'folias_theme', array(
 	'type'			=> 'switch',

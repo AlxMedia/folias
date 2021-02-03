@@ -3,11 +3,13 @@
 <div class="featured-item">
 	<div class="featured-item-right" href="<?php the_permalink(); ?>" style="background-image:url('<?php the_post_thumbnail_url('folias-square'); ?>');">
 		<a class="featured-item-link" href="<?php the_permalink(); ?>" rel="bookmark"></a>
-		<div class="type-portfolio-date">
-			<div class="type-portfolio-date-month"><?php the_time('M') ?></div>
-			<div class="type-portfolio-date-day"><?php the_time('d') ?></div>
-			<div class="type-portfolio-date-year"><?php the_time('Y') ?></div>
-		</div>
+		<?php if (get_theme_mod('hover-date','on') == 'on'): ?>
+			<div class="type-portfolio-date">
+				<div class="type-portfolio-date-month"><?php the_time('M') ?></div>
+				<div class="type-portfolio-date-day"><?php the_time('d') ?></div>
+				<div class="type-portfolio-date-year"><?php the_time('Y') ?></div>
+			</div>
+		<?php endif; ?>
 		<?php if ( get_theme_mod('comment-count','on') == 'on' ): ?>
 			<div class="type-portfolio-comments">
 				<a class="post-comments" href="<?php comments_link(); ?>"><span><?php comments_number( '0', '1', '%' ); ?></span></a>		
