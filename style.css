@@ -186,7 +186,7 @@ input, textarea, button, select, label { font-family: inherit; }
 .themeform input[type="tel"],
 .themeform input[type="number"],
 .themeform select,
-.themeform textarea { background: #222; border: 2px solid #444; color: #777; display: block; max-width: 100%; outline: none; padding: 7px 8px; }
+.themeform textarea { background: #333; border: 2px solid #444; color: #777; display: block; max-width: 100%; outline: none; padding: 7px 8px; }
 .themeform input[type="search"]:focus,
 .themeform input[type="text"]:focus, 
 .themeform input[type="password"]:focus, 
@@ -1437,7 +1437,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 li #reply-title { font-size: 0; margin: 0!important; padding: 0; height: 0; border-top: 0; }
 #cancel-comment-reply-link { color: #999; display: block; position: absolute; bottom: 26px; right: 20px; font-size: 12px; }
 #cancel-comment-reply-link:hover { color: #777; }
-#commentform { background: #222; padding: 10px 20px 20px; margin-bottom: 15px; border-radius: 10px; }
+#commentform { background: #222; padding: 10px 20px 20px; margin-bottom: 15px; border-radius: 4px; }
 #commentform p.comment-form-author { width: 48%; float: left; }
 #commentform p.comment-form-email { width: 48%; float: right; }
 #commentform p.comment-form-url,
