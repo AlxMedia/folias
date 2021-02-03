@@ -19,7 +19,8 @@
 	.page-title h4 { font-size: 15px; }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1080px) {
-	.featured-item { height: 340px; }
+	.featured-item { height: 460px; }
+	.featured-item-title { font-size: 32px; }
 	.type-portfolio { width: 290px; }
 }
 @media only screen and (min-width: 960px) and (max-width: 1200px) {
