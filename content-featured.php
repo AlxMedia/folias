@@ -2,7 +2,11 @@
 
 <div class="featured-item">
 	<div class="featured-item-right" href="<?php the_permalink(); ?>" style="background-image:url('<?php the_post_thumbnail_url('folias-square'); ?>');">
-		<a class="featured-item-link" href="<?php the_permalink(); ?>" rel="bookmark"></a>
+		<a class="featured-item-link" href="<?php the_permalink(); ?>" rel="bookmark">
+			<?php if ( has_post_format('video') && !is_sticky() ) echo'<span class="thumb-icon"><i class="fas fa-play"></i></span>'; ?>
+			<?php if ( has_post_format('audio') && !is_sticky() ) echo'<span class="thumb-icon"><i class="fas fa-volume-up"></i></span>'; ?>
+			<?php if ( is_sticky() ) echo'<span class="thumb-icon"><i class="fas fa-star"></i></span>'; ?>
+		</a>
 		<?php if (get_theme_mod('hover-date','on') == 'on'): ?>
 			<div class="type-portfolio-date">
 				<div class="type-portfolio-date-month"><?php the_time('M') ?></div>
