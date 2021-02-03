@@ -718,3 +718,11 @@ Kirki::add_field( 'folias_theme', array(
 	'section'		=> 'styling',
 	'default'		=> '#222222',
 ) );
+// Styling: Item Background
+Kirki::add_field( 'folias_theme', array(
+	'type'			=> 'color',
+	'settings'		=> 'color-item-bg',
+	'label'			=> esc_html__( 'Item Background', 'folias' ),
+	'section'		=> 'styling',
+	'default'		=> '#333333',
+) );

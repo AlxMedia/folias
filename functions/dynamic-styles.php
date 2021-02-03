@@ -124,6 +124,16 @@ if ( ! function_exists( 'folias_dynamic_css' ) ) {
 #header { background-color: '.esc_attr( get_theme_mod('color-content-sidebar') ).'; }
 				'."\n";
 			}
+			// item background
+			if ( get_theme_mod('color-item-bg','#333333') != '#333333' ) {
+				$styles .= '
+.type-portfolio,
+.featured-item-left,
+.featured-item-avatar { background-color: '.esc_attr( get_theme_mod('color-item-bg') ).'; }
+.featured-item-bottom:before { border-left: 30px solid '.esc_attr( get_theme_mod('color-item-bg') ).'; }
+.featured-item-bottom:after { display: none; }
+				'."\n";
+			}
 			// header logo max-height
 			if ( get_theme_mod('logo-max-height','50') != '50' ) {
 				$styles .= '.site-title a img { max-height: '.esc_attr( get_theme_mod('logo-max-height') ).'px; }'."\n";
