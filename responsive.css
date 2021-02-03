@@ -50,10 +50,11 @@
 	.s2 .social-links .social-tooltip:hover:before { display: none; }
 	.toggle-search { display: none; }
 	.main { float: left; }
-	.s1 { margin: 0; }	
+	.s1 { margin: 0; }
 }
-@media only screen and (max-width: 760px) {
-
+@media only screen and (min-width: 720px) and (max-width: 960px) {
+	.featured-item { height: 500px; }
+	.featured-item-title { font-size: 32px; }
 }
 @media only screen and (max-width: 719px) {
 	.site-title a img { margin: 0 auto; }
