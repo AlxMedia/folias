@@ -698,7 +698,21 @@ Kirki::add_field( 'folias_theme', array(
 	'section'		=> 'styling',
 	'default'		=> '920',
 	'choices'     => array(
-		'min'	=> '720',
+		'min'	=> '520',
+		'max'	=> '1920',
+		'step'	=> '1',
+	),
+) );
+// Styling: Featured Image Max-width
+Kirki::add_field( 'folias_theme', array(
+	'type'			=> 'slider',
+	'settings'		=> 'featured-image-width',
+	'label'			=> esc_html__( 'Featured Image Max-width', 'folias' ),
+	'description'	=> esc_html__( 'Max-width of the single featured image.', 'folias' ),
+	'section'		=> 'styling',
+	'default'		=> '920',
+	'choices'     => array(
+		'min'	=> '320',
 		'max'	=> '1920',
 		'step'	=> '1',
 	),

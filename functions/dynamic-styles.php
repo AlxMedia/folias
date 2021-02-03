@@ -107,6 +107,12 @@ if ( ! function_exists( 'folias_dynamic_css' ) ) {
 .content-inner > article { max-width: '.esc_attr( get_theme_mod('article-width') ).'px; }
 				'."\n";
 			}
+			// featured image width
+			if ( get_theme_mod('featured-image-width','920') != '920' ) {
+				$styles .= '
+.image-container img { max-width: '.esc_attr( get_theme_mod('featured-image-width') ).'px; }
+				'."\n";
+			}
 			// social sidebar color
 			if ( get_theme_mod('color-social-sidebar','#333333') != '#333333' ) {
 				$styles .= '

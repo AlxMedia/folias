@@ -14,7 +14,7 @@
 						</div>
 					<?php else: ?>
 						<div class="image-container">
-							<?php if ( has_post_thumbnail() ) {	the_post_thumbnail('folias-large-h'); } ?>
+							<?php if ( has_post_thumbnail() ) {	the_post_thumbnail('folias-large'); } ?>
 						</div>
 					<?php endif; ?>
 					

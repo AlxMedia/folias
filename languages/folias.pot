@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Folias\n"
-"POT-Creation-Date: 2021-02-03 14:26+0100\n"
+"POT-Creation-Date: 2021-02-03 16:17+0100\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -764,18 +764,26 @@ msgid "Max-width of the articles."
 msgstr ""
 
 #: functions/theme-options.php:710
+msgid "Featured Image Max-width"
+msgstr ""
+
+#: functions/theme-options.php:711
+msgid "Max-width of the single featured image."
+msgstr ""
+
+#: functions/theme-options.php:724
 msgid "Social Sidebar Color"
 msgstr ""
 
-#: functions/theme-options.php:718
+#: functions/theme-options.php:732
 msgid "Content Sidebar Color"
 msgstr ""
 
-#: functions/theme-options.php:726
+#: functions/theme-options.php:740
 msgid "Item Background"
 msgstr ""
 
-#: functions/theme-options.php:734
+#: functions/theme-options.php:748
 msgid "Comments Bubble"
 msgstr ""
 
