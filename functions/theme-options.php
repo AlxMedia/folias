@@ -179,7 +179,7 @@ Kirki::add_field( 'folias_theme', array(
 	'default'		=> '1',
 	'choices'     => array(
 		'min'	=> '0',
-		'max'	=> '14',
+		'max'	=> '10',
 		'step'	=> '1',
 	),
 ) );

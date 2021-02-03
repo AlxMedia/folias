@@ -906,7 +906,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 
 .post-format { position: relative; }
 
-.front-widgets { background: #fff; max-width: 920px; border-radius: 10px; border: 1px solid #eee; border-bottom-color: #ddd; margin: 20px auto; padding: 0 40px; box-sizing: border-box; }
+.front-widgets { background: #333; margin: 20px 10px 40px; padding: 10px 40px; box-sizing: border-box; }
 .front-widget-col { width: 50%; float: left; }
 .front-widget-inner { margin-right: 30px; }
 .front-widgets .widget { padding-top: 20px; padding-bottom: 20px; }
