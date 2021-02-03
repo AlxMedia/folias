@@ -8,12 +8,15 @@
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>	
 				<div class="post-wrapper">
 					
-					<div class="image-container">
-						<?php if ( has_post_thumbnail() ) {	the_post_thumbnail('folias-large-h'); } ?>
-					</div>
-					<!--<div class="entry-media">
-						<?php // if( get_post_format() ) { get_template_part('inc/post-formats'); } ?>
-					</div>-->
+					<?php if (get_theme_mod('post-format','off') == 'on'): ?>
+						<div class="entry-media">
+							<?php if( get_post_format() ) { get_template_part('inc/post-formats'); } ?>
+						</div>
+					<?php else: ?>
+						<div class="image-container">
+							<?php if ( has_post_thumbnail() ) {	the_post_thumbnail('folias-large-h'); } ?>
+						</div>
+					<?php endif; ?>
 					
 					<?php // do_action( 'alx_ext_sharrre' ); ?>
 					

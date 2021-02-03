@@ -210,6 +210,15 @@ Kirki::add_field( 'folias_theme', array(
 	'section'		=> 'blog',
 	'default'		=> 'on',
 ) );
+// Blog: Single - Post Format
+Kirki::add_field( 'folias_theme', array(
+	'type'			=> 'switch',
+	'settings'		=> 'post-format',
+	'label'			=> esc_html__( 'Single - Post Format', 'folias' ),
+	'description'	=> esc_html__( 'Shows post format content instead of featured image', 'folias' ),
+	'section'		=> 'blog',
+	'default'		=> 'off',
+) );
 // Blog: Single - Authorbox
 Kirki::add_field( 'folias_theme', array(
 	'type'			=> 'switch',
