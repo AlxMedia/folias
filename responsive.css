@@ -109,10 +109,11 @@
 	
 	/* blog home */
 	.content-inner { padding: 20px; }
+	.content-inner.magic-wrap { padding-left: 20px; padding-right: 20px; }
 	.type-portfolio { width: 100%; }
 	
 	.slick-posts-wrap { padding: 20px 20px 10px; }
-	.featured-item { height: auto; float: left; }
+	.featured-item { width: 100%; height: auto; float: left; }
 	.featured-item-left,
 	.featured-item-right { width: 100%; }
 	.featured-item-bottom { height: 260px; padding: 30px 30px 50px; position: relative; box-sizing: border-box; }

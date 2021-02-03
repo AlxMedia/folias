@@ -699,6 +699,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .post-comments:hover { color: #fff; opacity: 0.75; }
 
 .content-inner { box-sizing: border-box; padding: 40px; }
+.content-inner.magic-wrap { padding-left: 30px; padding-right: 30px; }
 .content-inner > article { border-radius: 10px; margin-bottom: 20px; max-width: 920px; margin-left: auto; margin-right: auto; }
 
 #wrapper { background: #222; }

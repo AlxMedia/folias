@@ -6,7 +6,7 @@
 
 <div class="content">
 	<?php get_template_part('inc/featured'); ?>
-	<div class="content-inner">
+	<div class="content-inner magic-wrap">
 		
 		<?php get_template_part('inc/front-widgets-top'); ?>
 		
