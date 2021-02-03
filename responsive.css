@@ -17,6 +17,7 @@
 	.page-title h2, 
 	.page-title h3, 
 	.page-title h4 { font-size: 15px; }
+	.entry-header .entry-title { font-size: 34px; }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1080px) {
 	.featured-item { height: 460px; }
