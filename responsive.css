@@ -12,18 +12,26 @@
 	.featured-item-excerpt { margin-top: 10px; font-size: 14px; }
 }
 @media only screen and (max-width: 1200px) {
-	.featured-item-title { font-size: 22px; }
+	.featured-item-title { font-size: 26px; }
+	.page-title h1, 
+	.page-title h2, 
+	.page-title h3, 
+	.page-title h4 { font-size: 15px; }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1080px) {
 	.featured-item { height: 340px; }
 	.type-portfolio { width: 290px; }
 }
 @media only screen and (min-width: 960px) and (max-width: 1200px) {
-	#header { min-width: 260px; max-width: 260px; }
+	#header { min-width: 200px; max-width: 200px; }
 	.site-title,
 	.site-description,
 	#profile-inner,
 	.sidebar .widget { padding-left: 20px; padding-right: 20px; }
+	.site-description { font-size: 14px; }
+	#profile-name { font-size: 17px; margin-bottom: 10px; }
+	#profile-description { font-size: 14px; }
+	#profile-image { width: 100px; height: 100px; padding: 6px; margin-bottom: 20px; }
 }
 @media only screen and (max-width: 960px) {
 	#wrapper-inner { display: block; }
