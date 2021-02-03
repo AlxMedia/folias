@@ -702,27 +702,19 @@ Kirki::add_field( 'folias_theme', array(
 		'step'	=> '1',
 	),
 ) );
-// Styling: Primary Color
+// Styling: Social Sidebar Color
 Kirki::add_field( 'folias_theme', array(
 	'type'			=> 'color',
-	'settings'		=> 'color-1',
-	'label'			=> esc_html__( 'Primary Color', 'folias' ),
+	'settings'		=> 'color-social-sidebar',
+	'label'			=> esc_html__( 'Social Sidebar Color', 'folias' ),
 	'section'		=> 'styling',
-	'default'		=> '#dc3262',
+	'default'		=> '#333333',
 ) );
-// Styling: Gradient Left
+// Styling: Content Sidebar Color
 Kirki::add_field( 'folias_theme', array(
 	'type'			=> 'color',
-	'settings'		=> 'gradient-left',
-	'label'			=> esc_html__( 'Gradient Left', 'folias' ),
+	'settings'		=> 'color-content-sidebar',
+	'label'			=> esc_html__( 'Content Sidebar Color', 'folias' ),
 	'section'		=> 'styling',
-	'default'		=> '#bd1d9d',
-) );
-// Styling: Gradient Right
-Kirki::add_field( 'folias_theme', array(
-	'type'			=> 'color',
-	'settings'		=> 'gradient-right',
-	'label'			=> esc_html__( 'Gradient Right', 'folias' ),
-	'section'		=> 'styling',
-	'default'		=> '#d64141',
+	'default'		=> '#222222',
 ) );
