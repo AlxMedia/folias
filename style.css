@@ -681,16 +681,16 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .site-title { text-align: center; font-size: 36px; font-weight: 600; letter-spacing: -0.5px; line-height: 50px; padding: 17px 40px; position: relative; z-index: 2; }
 .site-title a { display: block; color: #fff; max-width: 100%; }
 .site-title a img { display: block; margin: 0 auto; max-width: 100%; max-height: 50px; height: auto; padding: 0; -webkit-border-radius: 0; border-radius: 0; }
-.site-description { text-align: center; padding: 0 40px 30px; font-size: 16px; line-height: 1.6em; font-weight: 300; color: #aaa; position: relative; z-index: 2; }
+.site-description { text-align: center; padding: 0 40px 30px; font-size: 16px; line-height: 1.6em; font-weight: 300; color: rgba(255,255,255,0.6); position: relative; z-index: 2; }
 .site-header { background: #eee; }
 .site-image { display: block; margin: 0 auto; max-height: 400px; }
 
 #profile { position: relative; text-align: center; margin-bottom: 40px; }
 #profile-inner { position: relative; padding: 0 40px; }
-#profile-image { width: 200px; height: 200px; display: block; margin: 0 auto 40px; border: 1px solid #333; border-radius: 100%; padding: 10px; }
+#profile-image { width: 200px; height: 200px; display: block; margin: 0 auto 40px; border: 1px solid rgba(255,255,255,0.08); border-radius: 100%; padding: 10px; }
 #profile-image img { display: block; border-radius: 100%; }
 #profile-name { color: #fff; font-size: 24px; font-weight: 400; line-height: 1.2em; margin-bottom: 20px; }
-#profile-description { font-size: 20px; line-height: 1.5em; font-weight: 300; color: #aaa; position: relative; }
+#profile-description { font-size: 20px; line-height: 1.5em; font-weight: 300; color: rgba(255,255,255,0.6); position: relative; }
 #profile-description:before { content: ""; position: absolute; top: 0; right: 0; left: 0; height: 2px; }
 
 .post-comments { background: #333; font-size: 14px; font-weight: 600; line-height: 20px; color: #fff; display: block; position: absolute; top: 7px; right: 7px; z-index: 6; border-radius: 7px; }
@@ -1165,15 +1165,15 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 
 .sidebar .post-nav { background: transparent; margin-bottom: 30px; }
 .sidebar .post-nav li { width: 100%; }
-.sidebar .post-nav li:first-child a { border-top: 1px solid #333; }
-.sidebar .post-nav li a { padding-top: 20px; padding-bottom: 20px; border-bottom: 1px solid #333; }
+.sidebar .post-nav li:first-child a { border-top: 1px solid rgba(255,255,255,0.08); }
+.sidebar .post-nav li a { padding-top: 20px; padding-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.08); }
 .sidebar .post-nav li a span { color: #fff; font-size: 18px; }
-.sidebar .post-nav li a:hover span { color: #999; }
+.sidebar .post-nav li a:hover span { color: rgba(255,255,255,0.5); }
 .sidebar .post-nav li a:hover i { color: #fff; }
 .sidebar .post-nav li:last-child a strong { text-align: right; }
 .sidebar .post-nav li.next a { border-left: 0; }
-.sidebar .post-nav li a strong { color: #999; }
-.sidebar .post-nav li i { color: #aaa; }
+.sidebar .post-nav li a strong { color: rgba(255,255,255,0.5); }
+.sidebar .post-nav li i { color: rgba(255,255,255,0.5); }
 
 
 /* ------------------------------------------------------------------------- *
@@ -1208,7 +1208,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .widget select { background: rgba(0,0,0,0.25); border: 1px solid rgba(255,255,255,0.1); color: rgba(255,255,255,0.8); font-size: 15px; padding: 7px; width: 100%; max-width: 100%; }
 .widget label.screen-reader-text { display: none; }
 
-.sidebar .widget { padding: 30px 40px; border-top: 1px solid #333; }
+.sidebar .widget { padding: 30px 40px; border-top: 1px solid rgba(255,255,255,0.08); }
 
 /*  widgets : icons
 /* ------------------------------------ */
@@ -1298,7 +1298,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .widget_calendar #wp-calendar { width: 100%; }
 .widget_calendar caption { background: rgba(255,255,255,0.2); color: #fff; padding: 5px 10px; }
 .widget_calendar caption:before { color: #fff; color: rgba(255,255,255,0.7); font-size: 15px; }
-.widget_calendar thead { background: rgba(0,0,0,0.1); color: #ccc; box-shadow: inset 0 -1px 0 rgba(0,0,0,0.1); }
+.widget_calendar thead { background: rgba(0,0,0,0.1); color: #fff; box-shadow: inset 0 -1px 0 rgba(0,0,0,0.1); }
 .widget_calendar th { font-weight: 600; }
 .widget_calendar th, 
 .widget_calendar td { padding: 3px 0; text-align: center; border: 1px solid rgba(255,255,255,0.1); }
@@ -1306,16 +1306,16 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 
 /*  custom widget : alxtabs / alxposts
 /* ------------------------------------ */
-.alx-tabs-nav { background: #333; position: relative; overflow: hidden; margin: 0 0 24px; text-align: center; }
+.alx-tabs-nav { background: rgba(255,255,255,0.08); position: relative; overflow: hidden; margin: 0 0 24px; text-align: center; }
 .alx-tabs-nav.tab-count-1 li { width: 100%; }
 .alx-tabs-nav.tab-count-2 li { width: 50%; }
 .alx-tabs-nav.tab-count-3 li { width: 33.333%; }
 .alx-tabs-nav.tab-count-4 li { width: 25%; }
 .alx-tabs-nav li { display: block; float: left; }
-.alx-tabs-nav li a { color: #999; font-size: 18px; display: block; padding: 14px 0; border-left: 1px solid #222; }
+.alx-tabs-nav li a { color: rgba(255,255,255,0.6); font-size: 18px; display: block; padding: 14px 0; border-left: 1px solid rgba(255,255,255,0.08); }
 .alx-tabs-nav li:first-child a { border-left: 0; }
 .alx-tabs-nav li a:hover { color: #fff; }
-.alx-tabs-nav li.active a { background: #444; color: #fff; }
+.alx-tabs-nav li.active a { background: rgba(255,255,255,0.16); color: #fff; }
 .alx-tabs-nav li a span { display: none; }
 
 .alx-tab li,
