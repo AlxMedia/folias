@@ -126,6 +126,15 @@ Kirki::add_field( 'folias_theme', array(
 	'section'		=> 'blog',
 	'default'		=> '',
 ) );
+// Blog: Enable Excerpt
+Kirki::add_field( 'folias_theme', array(
+	'type'			=> 'switch',
+	'settings'		=> 'excerpt-enable',
+	'label'			=> esc_html__( 'Enable Excerpts', 'folias' ),
+	'description'	=> esc_html__( 'Show excerpts on blog items', 'folias' ),
+	'section'		=> 'blog',
+	'default'		=> 'off',
+) );
 // Blog: Excerpt Length
 Kirki::add_field( 'folias_theme', array(
 	'type'			=> 'slider',
@@ -144,7 +153,7 @@ Kirki::add_field( 'folias_theme', array(
 Kirki::add_field( 'folias_theme', array(
 	'type'			=> 'switch',
 	'settings'		=> 'featured-posts-include',
-	'label'			=> esc_html__( 'Featured Posts', 'folias' ),
+	'label'			=> esc_html__( 'Exclude Featured Posts', 'folias' ),
 	'description'	=> esc_html__( 'Exclude featured posts from the content below', 'folias' ),
 	'section'		=> 'blog',
 	'default'		=> 'off',

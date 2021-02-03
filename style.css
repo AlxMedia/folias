@@ -667,12 +667,12 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 #header { background: #222; min-width: 320px; max-width: 320px; position: relative; box-sizing: border-box; }
 .main { width: 100%; min-height: 100vh; }
 
-.s2 { background: #333; position: relative; min-width: 90px; max-width: 90px; z-index: 99; }
+.s2 { background: #333; position: relative; min-width: 70px; max-width: 70px; z-index: 99; }
 .s2 .social-links { background: #333; float: left; padding: 20px 0; width: 100%; }
 .s2 .social-links li { margin: 0 auto; padding: 4px 0; width: 100%; position: relative; }
 .s2 .social-links li:before { content:""; height: 1px; background: rgba(255,255,255,0.06); position: absolute; left: 30px; right: 30px; top: 0; }
 .s2 .social-links li:first-child:before { display: none; }
-.s2 .social-links .social-tooltip { display: block; font-size: 24px; padding: 18px 10px; margin: 0 20px; color: #fff; }
+.s2 .social-links .social-tooltip { display: block; font-size: 24px; padding: 18px 10px; margin: 0 10px; color: #fff; }
 .s2 .social-links .social-tooltip:hover { background: #262626; border-radius: 4px; color: #fff; text-decoration: none; }
 .s2 .social-links .social-tooltip:active { background: #262626; border-radius: 4px; color: #999; text-decoration: none; }
 .s2 .social-links .social-tooltip:hover:after { background: #fff; color: #333; padding: 7px 10px; top: 14px; left: 50px; right: auto; }
@@ -722,14 +722,15 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .type-portfolio-category { font-size: 13px; color: #777; text-transform: uppercase; padding: 10px 20px; border-top: 1px solid #444; }
 .type-portfolio-category a { color: #999; }
 .type-portfolio-category a:hover { color: #fff; }
+.type-portfolio-excerpt { font-size: 13px; padding: 0 20px 15px; margin-top: -5px; }
 
 /*  header : search
 /* ------------------------------------ */
-.toggle-search { background: #333; outline: none; border: 0; border-bottom: 1px solid #444; padding: 27px 0; width: 90px; color: #000; text-align: center; font-size: 20px; line-height: 24px; cursor: pointer; display: block; }
+.toggle-search { background: #333; outline: none; border: 0; border-bottom: 1px solid #444; padding: 27px 0; width: 70px; color: #000; text-align: center; font-size: 20px; line-height: 24px; cursor: pointer; display: block; }
 .toggle-search:hover {  }
 .toggle-search.active { background: #333; }
 .toggle-search.active i:before { content: "\f00d"; }
-.search-expand { display: none; background: #333; padding: 23px 30px 23px 0; position: absolute; top: 0; left: 90px; width: 290px; z-index: 10; }
+.search-expand { display: none; background: #333; padding: 23px 30px 23px 0; position: absolute; top: 0; left: 70px; width: 290px; z-index: 10; }
 .search-expand-inner {  }
 .search-expand .themeform input { background: #fff; width: 100%; border: 1px solid #ddd; }
 .search-expand .themeform input:focus { border-color: #ccc; }

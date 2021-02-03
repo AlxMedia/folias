@@ -627,7 +627,7 @@ if ( ! function_exists( 'folias_pre_get_posts' ) ) {
 				// Get featured post ids
 				$featured_post_ids = folias_get_featured_post_ids();
 				// Exclude posts
-				if ( $featured_post_ids && !get_theme_mod('featured-posts-include') )
+				if ( $featured_post_ids && get_theme_mod('featured-posts-include','off') =='on' )
 					$query->set('post__not_in', $featured_post_ids);
 			}
 		}

@@ -26,5 +26,10 @@
 		<?php if ( has_category() ) : ?>
 			<div class="type-portfolio-category"><?php the_category(' / '); ?></div>
 		<?php endif; ?>
+		<?php if ( (get_theme_mod('excerpt-length','16') != '0') && (get_theme_mod('excerpt-enable','off') == 'on') ): ?>
+				<div class="type-portfolio-excerpt">
+					<?php the_excerpt(); ?>
+				</div>
+			<?php endif; ?>
 	</div>
 </div>
