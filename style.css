@@ -67,7 +67,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 /* ------------------------------------------------------------------------- *
  *  Base Styles
 /* ------------------------------------------------------------------------- */
-body { background: #f5f5f5; font-size: 15px; line-height: 1.5em; color: #ccc; font-weight: 300; }
+body { background: #161616; font-size: 15px; line-height: 1.5em; color: #ccc; font-weight: 300; }
 ::selection { background: #fff; color: #333; }
 ::-moz-selection { background: #fff; color: #333; }
 a { color: #fff; text-decoration: none; }
@@ -682,7 +682,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .site-title a { display: block; color: #fff; max-width: 100%; }
 .site-title a img { display: block; margin: 0 auto; max-width: 100%; max-height: 50px; height: auto; padding: 0; -webkit-border-radius: 0; border-radius: 0; }
 .site-description { text-align: center; padding: 0 40px 30px; font-size: 16px; line-height: 1.6em; font-weight: 300; color: rgba(255,255,255,0.6); position: relative; z-index: 2; }
-.site-header { background: #eee; }
+.site-header { background: #161616; }
 .site-image { display: block; margin: 0 auto; max-height: 400px; }
 
 #profile { position: relative; text-align: center; margin-bottom: 40px; }
