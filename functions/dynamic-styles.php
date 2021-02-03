@@ -142,7 +142,7 @@ if ( ! function_exists( 'folias_dynamic_css' ) ) {
 				'."\n";
 			}
 			// header logo max-height
-			if ( get_theme_mod('logo-max-height','50') != '50' ) {
+			if ( get_theme_mod('logo-max-height','60') != '60' ) {
 				$styles .= '.site-title a img { max-height: '.esc_attr( get_theme_mod('logo-max-height') ).'px; }'."\n";
 			}
 			// header text color

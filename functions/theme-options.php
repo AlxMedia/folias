@@ -668,7 +668,7 @@ Kirki::add_field( 'folias_theme', array(
 	'label'			=> esc_html__( 'Header Logo Image Max-height', 'folias' ),
 	'description'	=> esc_html__( 'Your logo image should have the double height of this to be high resolution', 'folias' ),
 	'section'		=> 'styling',
-	'default'		=> '50',
+	'default'		=> '60',
 	'choices'     => array(
 		'min'	=> '40',
 		'max'	=> '200',
