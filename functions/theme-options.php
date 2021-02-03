@@ -726,3 +726,11 @@ Kirki::add_field( 'folias_theme', array(
 	'section'		=> 'styling',
 	'default'		=> '#333333',
 ) );
+// Styling: Comments Bubble
+Kirki::add_field( 'folias_theme', array(
+	'type'			=> 'color',
+	'settings'		=> 'color-comments',
+	'label'			=> esc_html__( 'Comments Bubble', 'folias' ),
+	'section'		=> 'styling',
+	'default'		=> '#333333',
+) );

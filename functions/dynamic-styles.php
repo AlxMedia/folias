@@ -134,6 +134,13 @@ if ( ! function_exists( 'folias_dynamic_css' ) ) {
 .featured-item-bottom:after { display: none; }
 				'."\n";
 			}
+			// comments bubble
+			if ( get_theme_mod('color-comments','#333333') != '#333333' ) {
+				$styles .= '
+.post-comments { background-color: '.esc_attr( get_theme_mod('color-comments') ).'; }
+.post-comments > span:before { border-color: transparent '.esc_attr( get_theme_mod('color-comments') ).' transparent transparent; }
+				'."\n";
+			}
 			// header logo max-height
 			if ( get_theme_mod('logo-max-height','50') != '50' ) {
 				$styles .= '.site-title a img { max-height: '.esc_attr( get_theme_mod('logo-max-height') ).'px; }'."\n";
