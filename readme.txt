@@ -8,7 +8,7 @@ Tags: blog, one-column, two-columns, right-sidebar, left-sidebar, custom-colors,
 
 == Description ==
 
-Folias is a flexible personal blog theme with plenty of options. It is optimized for all devices and built to work with blocks. You can pick accent colors, set sidebar to the left or right and choose website max-width with a few clicks. Demo: http://demo.alx.media/x/?theme=Folias
+Folias is a flexible portfolio theme with plenty of options. It is optimized for all devices and built to work with blocks. You can pick sidebars and item colors, set sidebar to the left or right and choose website max-width with a few clicks. Demo: http://demo.alx.media/x/?theme=Folias
 
 == Installation ==
 
@@ -77,5 +77,5 @@ Content images
 
 == Changelog ==
 
-= 1.0.0 - 2021-02-01 =
+= 1.0.0 - 2021-02-04 =
 * Initial release
