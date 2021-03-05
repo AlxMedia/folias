@@ -56,6 +56,9 @@ class Nav {
 	 * @return void
 	 */
 	public function init() {
+		if ( apply_filters( 'alxmedia_disable_nav_mods', false ) ) {
+			return;
+		}
 		add_filter( 'walker_nav_menu_start_el', [ $this, 'add_nav_sub_menu_buttons' ], 10, 4 );
 		add_filter( 'nav_menu_item_title', [ $this, 'nav_menu_item_title' ], 10, 4 );
 	}
