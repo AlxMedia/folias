@@ -71,6 +71,7 @@ Source: https://stocksnap.io
 
 = 1.0.2 - 2021-05-25 =
 * Fixed compatibility issue with custom nav and various security plugins
+* Fixed magic grid javascript issue
 * Updated language files
 
 = 1.0.1 - 2021-03-05 =
