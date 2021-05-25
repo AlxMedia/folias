@@ -69,6 +69,10 @@ Source: https://stocksnap.io
 
 == Changelog ==
 
+= 1.0.2 - 2021-05-25 =
+* Fixed compatibility issue with custom nav and various security plugins
+* Updated language files
+
 = 1.0.1 - 2021-03-05 =
 * Fixed: mobile menu tabbing will enter in the menu even when it's closed
 * Fixed: trap focus in search popup

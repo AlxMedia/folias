@@ -98,8 +98,10 @@ add_action( 'after_setup_theme', 'folias_setup' );
 
 /*  Custom navigation
 /* ------------------------------------ */
-add_action( 'wp', function() {
+if ( ! class_exists( '\Folias\Nav' ) ) {
 	require_once 'functions/nav.php';
+}
+add_action( 'wp', function() {
 	$nav = new \Folias\Nav();
 	$nav->enqueue(
 		[
