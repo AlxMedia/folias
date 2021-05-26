@@ -69,6 +69,9 @@ Source: https://stocksnap.io
 
 == Changelog ==
 
+= 1.0.3 - 2021-05-26 =
+* Fixed premium theme updater version number issue
+
 = 1.0.2 - 2021-05-25 =
 * Fixed compatibility issue with custom nav and various security plugins
 * Fixed magic grid javascript issue
