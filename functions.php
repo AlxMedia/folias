@@ -14,12 +14,6 @@
 // Load Kirki
 include( get_template_directory() . '/functions/kirki/kirki.php' );
 
-// Load theme updater functions
-function folias_theme_updater() {
-	require( get_template_directory() . '/functions/updater/theme-updater.php' );
-}
-add_action( 'after_setup_theme', 'folias_theme_updater' );
-
 if ( ! function_exists( 'folias_load' ) ) {
 	
 	function folias_load() {

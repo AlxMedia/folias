@@ -4,11 +4,11 @@ Requires at least: 5.0
 Tested up to: 6.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0
-Tags: blog, one-column, two-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background
+Tags: portfolio, photography, blog, one-column, two-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background, footer-widgets
 
 == Description ==
 
-Folias is a flexible portfolio theme with plenty of options. It is optimized for all devices and built to work with blocks. You can pick sidebars and item colors, set sidebar to the left or right and choose website max-width with a few clicks. Demo: http://demo.alx.media/x/?theme=Folias
+Folias is a flexible portfolio theme with plenty of options. It is optimized for all devices. You can pick sidebars and item colors, set sidebar to the left or right and choose website max-width with a few clicks. Demo: http://demo.alx.media/x/?theme=Folias
 
 == Installation ==
 
@@ -67,7 +67,25 @@ Screenshot images
 License: CC0 1.0 Universal (CC0 1.0)
 Source: https://stocksnap.io
 
+Header images
+1. https://stocksnap.io/photo/EPNK1H7KBP - CC0 1.0 Universal (CC0 1.0)
+
+Sidebar images
+1. https://stocksnap.io/photo/IPXQTD44G8 - CC0 1.0 Universal (CC0 1.0)
+
+Content images
+1. https://stocksnap.io/photo/13LKG0AGI0 - CC0 1.0 Universal (CC0 1.0)
+2. https://stocksnap.io/photo/3VLGQNBZP2 - CC0 1.0 Universal (CC0 1.0)
+3. https://stocksnap.io/photo/EPNK1H7KBP - CC0 1.0 Universal (CC0 1.0)
+4. https://stocksnap.io/photo/FLU1A9EK7E - CC0 1.0 Universal (CC0 1.0)
+5. https://stocksnap.io/photo/LP6E5BCIJP - CC0 1.0 Universal (CC0 1.0)
+6. https://stocksnap.io/photo/IUJP9OI22I - CC0 1.0 Universal (CC0 1.0)
+7. https://stocksnap.io/photo/Q3P6NCT23E - CC0 1.0 Universal (CC0 1.0)
+
 == Changelog ==
+
+= 1.0.9 - 2022-09-15 =
+* Changed theme from premium to free
 
 = 1.0.8 - 2022-05-30 =
 * Fixed ol and ul box-sizing content-box styling for WP 6.0
