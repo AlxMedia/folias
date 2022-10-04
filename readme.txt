@@ -84,6 +84,9 @@ Content images
 
 == Changelog ==
 
+= 1.1.0 - 2022-10-04 =
+* Fixed skip link
+
 = 1.0.9 - 2022-09-15 =
 * Changed theme from premium to free
 
