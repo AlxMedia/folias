@@ -84,6 +84,9 @@ Content images
 
 == Changelog ==
 
+= 1.1.1 - 2022-11-29 =
+* Added search button to mobile header
+
 = 1.1.0 - 2022-10-04 =
 * Fixed skip link
 
