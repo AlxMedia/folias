@@ -84,6 +84,9 @@ Content images
 
 == Changelog ==
 
+= 1.1.2 - 2023-08-04 =
+* Updated to Font Awesome 6.4.2
+
 = 1.1.1 - 2022-11-29 =
 * Added search button to mobile header
 
