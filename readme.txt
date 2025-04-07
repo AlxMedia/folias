@@ -8,7 +8,7 @@ Tags: portfolio, photography, blog, one-column, two-columns, right-sidebar, left
 
 == Description ==
 
-Folias is a flexible portfolio theme with plenty of options. It is optimized for all devices. You can pick sidebars and item colors, set sidebar to the left or right and choose website max-width with a few clicks. Demo: http://demo.alx.media/x/?theme=Folias
+Folias is a flexible portfolio theme with plenty of options. It is optimized for all devices. You can pick sidebars and item colors, set sidebar to the left or right and choose website max-width with a few clicks. Demo: https://demo.agnarson.com/?theme=Folias
 
 == Installation ==
 
@@ -19,7 +19,7 @@ Folias is a flexible portfolio theme with plenty of options. It is optimized for
 
 == Documentation ==
 
-http://alx.media/documentation/
+https://agnarson.com/documentation/
 
 == Copyright ==
 
